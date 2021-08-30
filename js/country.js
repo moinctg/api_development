@@ -45,7 +45,7 @@ data.forEach(country => {
 const loadCountryByName = name => {
     // console.log(name);
 
-    const url = 'https://restcountries.eu/rest/v2/name/${name}';
+    const url = `https://restcountries.eu/rest/v2/name/${name} `;
     // console.log(url);
     fetch(url)
         .then(res => res.json())
